@@ -10,4 +10,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    /** Called when the user clicks the Send button */
+    public void sendMessage(View view) {
+        // do something in response to button click
+    }
 }
